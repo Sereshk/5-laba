@@ -1,0 +1,175 @@
+@media only screen and (max-width: 700px) {
+    
+    
+.flex-container-1 {
+flex-direction: column;
+font-size: 1em;
+text-align: center;
+}
+
+.form-button {
+font-size: 20px;
+padding: 8px 16px;
+}
+    img 
+    {
+        
+       display: block;
+    margin: 0 auto;
+    width: 100px;
+        height: 100px;
+        
+        
+}
+
+.flex-container-2 {
+      display: block;
+
+flex-direction: column;
+font-size: 1.2em;
+text-align: center;
+}
+   
+
+.flex-container-21 {
+font-size: 0.2em;
+}
+
+.flex-container-22 {
+width: 100%;
+padding: 10px;
+    font-size: 0.4em;
+    
+
+}
+    img 
+    {
+        
+       display: block;
+    margin: 0 auto;
+    width: 100px;
+        height: 100px;
+    }
+ h1 {
+text-transform: uppercase;
+    font-size: 0px;
+    color:black;
+    text-align: center;
+}
+
+
+.info {
+font-size: 1.2em;
+}
+
+.zag {
+font-size: 1em;
+}
+
+.flex-container-3 {
+width: 100%;
+height: auto;
+}
+
+}
+.flex-container-1
+{
+    font-family: Verdana, sans-serif;
+    color:dimgrey ;
+     display: flex;
+   justify-content: space-between;
+    font-size: 1.2em;
+}
+
+
+.form-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+    border-radius: 50px;
+}
+.flex-container-2
+{ 
+    font-family: Helvetica , sans-serif;
+        display: flex;
+
+    font-size: 0.9em;
+     word-spacing: 0.3em ; 
+    line-height: 2;
+}
+.a
+{
+    text-decoration: none ;
+}
+.zagolov
+{
+   font-weight: 700 ;  
+}
+body {
+    
+  padding: 30px;
+  width: 80%;   
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-container-21
+{
+     font-family: Helvetica , sans-serif;
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: column;
+   
+    font-size: 1.2em;
+     word-spacing: 0.3em ; 
+    line-height: 2;
+    border-top: 2px solid black;
+}
+.flex-container-22
+{
+     width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+h1
+{
+    text-transform: uppercase;
+    font-size: 30px;
+    color:black;
+    text-align: center;
+}
+.info
+{
+     font-size: 1.1em;
+
+}
+.zag
+{
+    font-size: 1.2em;
+}
+.flex-container-3 { 
+   margin: 0 auto;
+  width: 50%;
+  height: 20%; /* высота контейнера */
+    right: 50%;
+    background-color:dimgrey;
+    overflow: hidden;
+    text-align: center
+}
+
+img {
+  height: 50%;
+  width: 50%;
+  margin: 0 25% 0 25%
+}
+
+
